@@ -1,8 +1,9 @@
 number_list = []
 a = []
 while True:
-    try :
+    try:
         a = list(map(int,input().split())) 
+        number_list += a
     except Exception as e :
         break
 # print(number_list)
