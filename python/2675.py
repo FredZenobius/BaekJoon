@@ -5,4 +5,4 @@ for i in range(count) :
     for j in order_list[1] :
         for k in range(int(order_list[0])) :
             print(j, end='')
-        print()
+    print()
